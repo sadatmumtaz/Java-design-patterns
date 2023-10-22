@@ -9,9 +9,14 @@ package GOF.Visitor.tutorialspoint;
  * @author user
  */
 public class VisitorPatternDemo {
-   public static void main(String[] args) {
 
-      ComputerPart computer = new Computer();
-      computer.accept(new ComputerPartDisplayVisitor());
-   }
+    public static void main(String[] args) {
+
+        ComputerPart computer = new Computer();
+        computer.accept(new ComputerPartDisplayVisitor());
+
+        ComputerPartMaintainer maintainer = new ComputerPartMaintenanceVisitor();
+        computer.maintain(maintainer);
+
+    }
 }

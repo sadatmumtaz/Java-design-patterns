@@ -14,4 +14,9 @@ public class Keyboard implements ComputerPart {
    public void accept(ComputerPartVisitor computerPartVisitor) {
       computerPartVisitor.visit(this);
    }
+   
+   @Override
+    public void maintain(ComputerPartMaintainer computerPartMaintainer) {
+        computerPartMaintainer.maintain(this);
+    }
 }

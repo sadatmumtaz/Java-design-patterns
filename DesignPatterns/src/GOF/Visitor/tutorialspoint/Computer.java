@@ -24,4 +24,10 @@ public class Computer implements ComputerPart {
       }
       computerPartVisitor.visit(this);
    }
+   
+   @Override
+    public void maintain(ComputerPartMaintainer computerPartMaintainer) {
+        computerPartMaintainer.maintain(this);
+    }
+   
 }

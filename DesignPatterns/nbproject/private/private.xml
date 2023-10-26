@@ -2,6 +2,37 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Builder/ChickenBurger.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Builder/Coke.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Builder/Burger.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/AbstractFactory/Triangle.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Builder/Meal.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/AbstractFactory/RoundedRectangle.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/AbstractFactory/Shape.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Builder/Bottle.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Builder/Item.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Builder/Packing.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Builder/Pepsi.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/AbstractFactory/FactoryProducer.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/AbstractFactory/ShapeFactory.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/AbstractFactory/Square.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Builder/InteractiveMealBuilder.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Builder/Wrapper.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Builder/DietCoke.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Builder/BuilderPatternDemo.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Builder/VegBurger.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Builder/DietPepsi.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Builder/Tea.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/AbstractFactory/DoubleBorderedTriangle.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/AbstractFactory/AbstractFactory.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/AbstractFactory/RoundedShapeFactory.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/AbstractFactory/Rectangle.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/AbstractFactory/DoubleBorderedRectangle.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/AbstractFactory/AbstractFactoryPatternDemo.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Builder/MealBuilder.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Builder/ColdDrink.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/AbstractFactory/DoubleBorderFactory.java</file>
+        </group>
     </open-files>
 </project-private>

@@ -44,7 +44,7 @@ public class AbstractFactoryPatternDemo {
         System.out.println(".................................................");
 
         // Create a factory for double-bordered shapes
-        AbstractFactory doubleBorderFactory = FactoryProducer.getFactory(true);
+        AbstractFactory doubleBorderFactory = DoubleBorderFactory.getFactory(true);
         Shape shape7 = doubleBorderFactory.getShape("TRIANGLE");
         Shape shape8 = doubleBorderFactory.getShape("RECTANGLE");
         shape7.draw();

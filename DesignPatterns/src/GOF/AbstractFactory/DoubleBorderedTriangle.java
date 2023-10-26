@@ -8,13 +8,9 @@ package GOF.AbstractFactory;
  *
  * @author user
  */
-public class FactoryProducer {
-   public static AbstractFactory getFactory(boolean rounded ){   
-      if(rounded){
-         return new RoundedShapeFactory();         
-      }
-      else{
-         return new ShapeFactory();
-      }
+public class DoubleBorderedTriangle implements Shape {
+   @Override
+   public void draw() {
+      System.out.println("Inside Double Bordered Triangle::draw() method.");
    }
 }

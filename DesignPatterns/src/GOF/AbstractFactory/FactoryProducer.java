@@ -9,10 +9,14 @@ package GOF.AbstractFactory;
  * @author user
  */
 public class FactoryProducer {
-   public static AbstractFactory getFactory(boolean rounded){   
+   public static AbstractFactory getFactory(boolean rounded, boolean DoubleRounded){   
       if(rounded){
          return new RoundedShapeFactory();         
-      }else{
+      }
+      else if(DoubleRounded){
+         return new ShapeFactory();
+      }
+      else{
          return new ShapeFactory();
       }
    }

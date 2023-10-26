@@ -10,17 +10,12 @@ package GOF.Builder;
  */
 public class BuilderPatternDemo {
    public static void main(String[] args) {
-   
-      MealBuilder mealBuilder = new MealBuilder();
+        MealBuilder mealBuilder = new MealBuilder();
+        InteractiveMealBuilder interactiveMealBuilder = new InteractiveMealBuilder(mealBuilder);
+        Meal meal = interactiveMealBuilder.createInteractiveMeal();
 
-      Meal vegMeal = mealBuilder.prepareVegMeal();
-      System.out.println("Veg Meal");
-      vegMeal.showItems();
-      System.out.println("Total Cost: " + vegMeal.getCost());
-
-      Meal nonVegMeal = mealBuilder.prepareNonVegMeal();
-      System.out.println("\n\nNon-Veg Meal");
-      nonVegMeal.showItems();
-      System.out.println("Total Cost: " + nonVegMeal.getCost());
-   }
+        System.out.println("Your Customized Meal");
+        meal.showItems();
+        System.out.println("Total Cost: " + meal.getCost());
+    }
 }

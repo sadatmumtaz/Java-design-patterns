@@ -10,6 +10,10 @@ package GOF.AbstractFactory;
  */
 
 public class DoubleBorderFactory extends AbstractFactory {
+
+    static AbstractFactory getFactory(boolean b) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
    @Override
    public Shape getShape(String shapeType) {    
       if (shapeType.equalsIgnoreCase("RECTANGLE")) {

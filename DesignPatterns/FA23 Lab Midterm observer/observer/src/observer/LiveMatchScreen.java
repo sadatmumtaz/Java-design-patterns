@@ -8,12 +8,12 @@ package observer;
  *
  * @author user
  */
-// MainScreen.java
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 import java.util.Scanner;
 
-public class MainScreen {
+public class LiveMatchScreen {
     private List<CricketMatch> liveMatches = new ArrayList<>();
 
     public void displayLiveMatches() {
@@ -44,6 +44,12 @@ public class MainScreen {
         } else {
             System.out.println("Invalid selection. Please try again.");
         }
+    }
+
+    public CricketMatch getRandomMatch() {
+        Random random = new Random();
+        int randomIndex = random.nextInt(liveMatches.size());
+        return liveMatches.get(randomIndex);
     }
 }
 

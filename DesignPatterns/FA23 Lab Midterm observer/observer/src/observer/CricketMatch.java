@@ -8,7 +8,6 @@ package observer;
  *
  * @author user
  */
-// CricketMatch.java
 import java.util.ArrayList;
 import java.util.List;
 

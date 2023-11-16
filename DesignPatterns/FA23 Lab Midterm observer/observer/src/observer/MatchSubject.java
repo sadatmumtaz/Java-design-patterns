@@ -8,8 +8,6 @@ package observer;
  *
  * @author user
  */
-// MatchSubject.java
-import java.util.List;
 
 public interface MatchSubject {
     void registerObserver(MatchObserver observer);

@@ -8,38 +8,43 @@ package observer;
  *
  * @author user
  */
-// MatchLiveUpdatesApp.java
+import java.util.Random;
+
 public class MatchLiveUpdatesApp {
     public static void main(String[] args) {
         // Creating instances
         CricketFan fan1 = new CricketFan("John");
         CricketFan fan2 = new CricketFan("Alice");
 
-        CricketMatch match1 = new CricketMatch();
-        CricketMatch match2 = new CricketMatch();
+        LiveMatchScreen mainScreen = new LiveMatchScreen();
 
-        MainScreen mainScreen = new MainScreen();
+        //random matches
+        for (int i = 0; i < 5; i++) {
+            CricketMatch randomMatch = createRandomMatch("Match " + (i + 1));
+            mainScreen.addLiveMatch(randomMatch);
+        }
 
-        // Registering fans as observers
-        match1.registerObserver(fan1);
-        match1.registerObserver(fan2);
-
-        match2.registerObserver(fan1);
-
-        // Adding matches to the main screen
-        mainScreen.addLiveMatch(match1);
-        mainScreen.addLiveMatch(match2);
-
-        // Displaying live matches on the main screen and allowing user to select
         mainScreen.selectMatchFromMenu();
 
-        // Simulating match updates
-        match1.setMatchStatus("Match 1: In Progress - Score: 50/1");
-        match2.setMatchStatus("Match 2: Yet to Start");
+        //match updates
+        for (int i = 0; i < 3; i++) {
+            CricketMatch randomMatch = mainScreen.getRandomMatch();
+            randomMatch.setMatchStatus("In Progress - Score: " + getRandomScore());
+        }
 
-        // User selects a match
         mainScreen.selectMatchFromMenu();
     }
+
+    private static CricketMatch createRandomMatch(String name) {
+        CricketMatch match = new CricketMatch();
+        match.setMatchStatus(name + ": Yet to Start");
+        return match;
+    }
+
+    private static String getRandomScore() {
+        Random random = new Random();
+        int runs = random.nextInt(200);
+        int wickets = random.nextInt(10);
+        return runs + "/" + wickets;
+    }
 }
-
-

@@ -8,7 +8,6 @@ package observer;
  *
  * @author user
  */
-// MatchObserver.java
 public interface MatchObserver {
     void update(String matchStatus);
 }

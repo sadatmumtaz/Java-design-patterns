@@ -8,7 +8,6 @@ package observer;
  *
  * @author user
  */
-// CricketFan.java
 public class CricketFan implements MatchObserver {
     private String name;
 

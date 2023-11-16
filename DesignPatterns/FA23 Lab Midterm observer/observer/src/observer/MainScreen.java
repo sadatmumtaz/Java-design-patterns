@@ -11,14 +11,15 @@ package observer;
 // MainScreen.java
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class MainScreen {
     private List<CricketMatch> liveMatches = new ArrayList<>();
 
     public void displayLiveMatches() {
         System.out.println("Live Matches:");
-        for (CricketMatch match : liveMatches) {
-            System.out.println("- " + match.toString());
+        for (int i = 0; i < liveMatches.size(); i++) {
+            System.out.println((i + 1) + ". " + liveMatches.get(i).getMatchDetails());
         }
     }
 
@@ -26,11 +27,24 @@ public class MainScreen {
         liveMatches.add(match);
     }
 
-    public void selectMatch(CricketMatch match) {
-        System.out.println("User selected match: " + match.toString());
-        // Simulate navigating to ball-by-ball coverage screen
-        BallByBallCoverageScreen coverageScreen = new BallByBallCoverageScreen(match);
-        coverageScreen.displayBallByBallCoverage();
+    public void selectMatchFromMenu() {
+        Scanner scanner = new Scanner(System.in);
+
+        displayLiveMatches();
+        System.out.print("Select a match (enter the corresponding number): ");
+        int selection = scanner.nextInt();
+
+        if (selection > 0 && selection <= liveMatches.size()) {
+            CricketMatch selectedMatch = liveMatches.get(selection - 1);
+            System.out.println("User selected match: " + selectedMatch.getMatchDetails());
+
+            // Simulate navigating to ball-by-ball coverage screen
+            BallByBallCoverageScreen coverageScreen = new BallByBallCoverageScreen(selectedMatch);
+            coverageScreen.displayBallByBallCoverage();
+        } else {
+            System.out.println("Invalid selection. Please try again.");
+        }
     }
 }
+
 

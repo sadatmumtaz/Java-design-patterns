@@ -30,15 +30,16 @@ public class MatchLiveUpdatesApp {
         mainScreen.addLiveMatch(match1);
         mainScreen.addLiveMatch(match2);
 
-        // Displaying live matches on the main screen
-        mainScreen.displayLiveMatches();
+        // Displaying live matches on the main screen and allowing user to select
+        mainScreen.selectMatchFromMenu();
 
         // Simulating match updates
         match1.setMatchStatus("Match 1: In Progress - Score: 50/1");
         match2.setMatchStatus("Match 2: Yet to Start");
 
         // User selects a match
-        mainScreen.selectMatch(match1);
+        mainScreen.selectMatchFromMenu();
     }
 }
+
 

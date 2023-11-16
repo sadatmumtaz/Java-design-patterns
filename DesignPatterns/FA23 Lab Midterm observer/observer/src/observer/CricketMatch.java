@@ -37,4 +37,10 @@ public class CricketMatch implements MatchSubject {
         this.matchStatus = matchStatus;
         notifyObservers();
     }
+
+    @Override
+    public String getMatchDetails() {
+        return "Match Details: " + matchStatus;
+    }
 }
+

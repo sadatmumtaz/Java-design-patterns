@@ -17,8 +17,9 @@ public class BallByBallCoverageScreen {
     }
 
     public void displayBallByBallCoverage() {
-        System.out.println("Displaying ball-by-ball coverage for match: " + selectedMatch.toString());
+        System.out.println("Displaying ball-by-ball coverage for match: " + selectedMatch.getMatchDetails());
         // Simulate displaying live updates
     }
 }
+
 

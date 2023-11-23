@@ -8,6 +8,9 @@ package GOF.Adapter;
  *
  * @author user
  */
-public interface AdvancedMediaPlayer {
-   void play(String fileName);
+public class WavPlayer implements AdvancedMediaPlayer {
+   @Override
+   public void play(String fileName) {
+      System.out.println("Playing wav file. Name: " + fileName);
+   }
 }

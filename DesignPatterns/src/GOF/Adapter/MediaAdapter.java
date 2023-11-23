@@ -9,27 +9,20 @@ package GOF.Adapter;
  * @author user
  */
 public class MediaAdapter implements MediaPlayer {
+   private AdvancedMediaPlayer advancedMusicPlayer;
 
-   AdvancedMediaPlayer advancedMusicPlayer;
-
-   public MediaAdapter(String audioType){
-   
-      if(audioType.equalsIgnoreCase("vlc") ){
-         advancedMusicPlayer = new VlcPlayer();			
-         
-      }else if (audioType.equalsIgnoreCase("mp4")){
+   public MediaAdapter(String audioType) {
+      if (audioType.equalsIgnoreCase("vlc")) {
+         advancedMusicPlayer = new VlcPlayer();
+      } else if (audioType.equalsIgnoreCase("mp4")) {
          advancedMusicPlayer = new Mp4Player();
-      }	
+      } else if (audioType.equalsIgnoreCase("wav")) {
+         advancedMusicPlayer = new WavPlayer(); // Added support for WavPlayer
+      }
    }
 
    @Override
    public void play(String audioType, String fileName) {
-   
-      if(audioType.equalsIgnoreCase("vlc")){
-         advancedMusicPlayer.playVlc(fileName);
-      }
-      else if(audioType.equalsIgnoreCase("mp4")){
-         advancedMusicPlayer.playMp4(fileName);
-      }
+      advancedMusicPlayer.play(fileName);
    }
 }

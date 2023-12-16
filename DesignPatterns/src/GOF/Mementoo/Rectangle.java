@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package GOF.Memento;
+package GOF.Mementoo;
 
 import java.awt.Color;
 import java.awt.Graphics;
@@ -11,28 +11,29 @@ import java.awt.Graphics;
  *
  * @author user
  */
+public class Rectangle extends BaseShape {
+    private int width;
+    private int height;
 
-
-public class Dot extends BaseShape {
-    private final int DOT_SIZE = 3;
-
-    public Dot(int x, int y, Color color) {
+    public Rectangle(int x, int y, int width, int height, Color color) {
         super(x, y, color);
+        this.width = width;
+        this.height = height;
     }
 
     @Override
     public int getWidth() {
-        return DOT_SIZE;
+        return width;
     }
 
     @Override
     public int getHeight() {
-        return DOT_SIZE;
+        return height;
     }
 
     @Override
     public void paint(Graphics graphics) {
         super.paint(graphics);
-        graphics.fillRect(x - 1, y - 1, getWidth(), getHeight());
+        graphics.drawRect(x, y, getWidth() - 1, getHeight() - 1);
     }
 }

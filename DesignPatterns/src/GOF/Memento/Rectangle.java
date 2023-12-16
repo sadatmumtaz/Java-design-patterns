@@ -4,11 +4,14 @@
  */
 package GOF.Memento;
 
+import java.awt.Color;
+import java.awt.Graphics;
+
 /**
  *
  * @author user
  */
-import java.awt.*;
+
 
 public class Rectangle extends BaseShape {
     private int width;

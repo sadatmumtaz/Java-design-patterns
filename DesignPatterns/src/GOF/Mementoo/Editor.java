@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package GOF.Memento;
+package GOF.Mementoo;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -16,8 +16,6 @@ import javax.swing.JComponent;
  *
  * @author user
  */
-
-
 public class Editor extends JComponent {
     private Canvas canvas;
     private CompoundShape allShapes = new CompoundShape();

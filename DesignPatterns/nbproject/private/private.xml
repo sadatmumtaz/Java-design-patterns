@@ -3,35 +3,34 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/command/editor/Demo.java</file>
-            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/State/Demo.java</file>
-            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/State/ReadyState.java</file>
-            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/command/editor/Editor.java</file>
-            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/command/editor/CutCommand.java</file>
-            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/flyweight/trees/TreeFactory.java</file>
-            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/State/UI.java</file>
-            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/command/editor/PasteCommand.java</file>
-            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/flyweight/trees/FruitTreeDecorator.java</file>
-            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/State/State.java</file>
-            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/State/LockedState.java</file>
-            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/flyweight/trees/Forest.java</file>
-            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/command/editor/Command.java</file>
-            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/command/RemoteControlExample/RemoteControl.java</file>
-            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/State/PlayingState.java</file>
-            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/flyweight/trees/Demo.java</file>
-            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/command/RemoteControlExample/LightOffCommand.java</file>
-            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/command/editor/CopyCommand.java</file>
-            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/State/Player.java</file>
-            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/command/RemoteControlExample/Demo.java</file>
-            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/flyweight/trees/TreeType.java</file>
-            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/flyweight/trees/Tree.java</file>
-            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/State/TreeType.java</file>
-            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/command/RemoteControlExample/Light.java</file>
-            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/command/RemoteControlExample/LightOnCommand.java</file>
-            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/command/RemoteControlExample/LightReplaceCommand.java</file>
-            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/command/editor/CommandHistory.java</file>
-            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/command/RemoteControlExample/Command.java</file>
-            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/State/TrackIterator.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Memento/BaseShape.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Memento/MoveCommand.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Memento/Shape.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Mementoo/BaseShape.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Memento/Rectangle.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Mementoo/Rectangle.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Mementoo/Memento.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Mementoo/History.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Mementoo/Canvas.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Mementoo/Shape.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Mementoo/MoveCommand.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Memento/Canvas.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Memento/Editor.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Mementoo/CompoundShape.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Memento/CompoundShape.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Mementoo/Command.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Mementoo/Dot.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Memento/Dot.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Memento/ColorCommand.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Mementoo/Editor.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Mementoo/ColorCommand.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Memento/Demo.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Memento/Memento.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Memento/History.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Memento/Circle.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Mementoo/Demo.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Memento/Command.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Mementoo/Circle.java</file>
         </group>
     </open-files>
 </project-private>

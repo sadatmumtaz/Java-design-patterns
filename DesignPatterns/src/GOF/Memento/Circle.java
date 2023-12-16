@@ -4,11 +4,14 @@
  */
 package GOF.Memento;
 
+import java.awt.Color;
+import java.awt.Graphics;
+
 /**
  *
  * @author user
  */
-import java.awt.*;
+
 
 public class Circle extends BaseShape {
     private int radius;

@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package GOF.Memento;
+package GOF.Mementoo;
 
 import java.awt.Color;
 
@@ -10,12 +10,9 @@ import java.awt.Color;
  *
  * @author user
  */
-
-
 public class Demo {
     public static void main(String[] args) {
         Editor editor = new Editor();
-        
         editor.loadShapes(
                 new Circle(10, 10, 10, Color.BLUE),
 
@@ -32,6 +29,5 @@ public class Demo {
                         new Dot(360, 240, Color.GREEN)
                 )
         );
-        
     }
 }

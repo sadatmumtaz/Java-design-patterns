@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package GOF.Memento;
+package GOF.Mementoo;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -26,9 +26,7 @@ import javax.swing.border.Border;
  *
  * @author user
  */
-
-
-public class Canvas extends java.awt.Canvas {
+class Canvas extends java.awt.Canvas {
     private Editor editor;
     private JFrame frame;
     private static final int PADDING = 10;

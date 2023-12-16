@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package GOF.Memento;
+package GOF.Mementoo;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,8 +11,6 @@ import java.util.List;
  *
  * @author user
  */
-
-
 public class History {
     private List<Pair> history = new ArrayList<Pair>();
     private int virtualSize = 0;

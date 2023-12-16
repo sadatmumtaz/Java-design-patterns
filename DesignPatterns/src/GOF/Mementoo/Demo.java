@@ -27,7 +27,9 @@ public class Demo {
                         new Dot(240, 360, Color.GREEN),
                         new Dot(360, 360, Color.GREEN),
                         new Dot(360, 240, Color.GREEN)
-                )
+                ),
+                
+                new Oval(450, 50, 80, 40, Color.MAGENTA) 
         );
     }
 }

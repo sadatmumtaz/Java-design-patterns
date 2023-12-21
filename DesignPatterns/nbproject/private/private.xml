@@ -3,34 +3,28 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Memento/BaseShape.java</file>
-            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Memento/MoveCommand.java</file>
-            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Memento/Shape.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Mementoo/Command.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Mementoo/Dot.java</file>
             <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Mementoo/BaseShape.java</file>
-            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Memento/Rectangle.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Mementoo/Editor.java</file>
             <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Mementoo/Rectangle.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/fluentInterface/FluentInterfacePattern/PersonBuilder.java</file>
             <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Mementoo/Memento.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Mementoo/ColorCommand.java</file>
             <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Mementoo/History.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/fluentInterface/FluentInterfacePattern1/Main.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/fluentInterface/FluentInterfacePattern1/QueryBuilder.java</file>
             <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Mementoo/Canvas.java</file>
             <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Mementoo/Shape.java</file>
             <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Mementoo/MoveCommand.java</file>
-            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Memento/Canvas.java</file>
-            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Memento/Editor.java</file>
-            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Mementoo/CompoundShape.java</file>
-            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Memento/CompoundShape.java</file>
-            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Mementoo/Command.java</file>
-            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Mementoo/Dot.java</file>
-            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Memento/Dot.java</file>
-            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Memento/ColorCommand.java</file>
-            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Mementoo/Editor.java</file>
-            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Mementoo/ColorCommand.java</file>
-            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Memento/Demo.java</file>
-            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Memento/Memento.java</file>
-            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Memento/History.java</file>
-            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Memento/Circle.java</file>
             <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Mementoo/Demo.java</file>
-            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Memento/Command.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/fluentInterface/FluentInterfacePattern/Main.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Mementoo/CompoundShape.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/fluentInterface/FluentInterfacePattern/IPersonBuilder.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/fluentInterface/FluentInterfacePattern1/Query.java</file>
             <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Mementoo/Circle.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/fluentInterface/FluentInterfacePattern/Person.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Mementoo/Oval.java</file>
         </group>
     </open-files>
 </project-private>

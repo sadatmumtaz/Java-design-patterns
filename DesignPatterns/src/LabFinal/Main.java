@@ -4,6 +4,8 @@
  */
 package LabFinal;
 
+import java.util.Scanner;
+
 /**
  *
  * @author user
@@ -22,10 +24,6 @@ public class Main {
         invoker.setCommand(new DevelopActionPlanCommand());
         invoker.executeCommand();
 
-        // Example of other classes and their interactions
-        System.out.println("\n=== Application Overview ===");
-
-        // Admission Process
         System.out.println("\nAdmission Process:");
         AdmissionProcess admissionProcess = new AdmissionProcess();
         admissionProcess.ensureTransparency();
@@ -38,54 +36,28 @@ public class Main {
         surveyDesign.includeQuestions();
         surveyDesign.assessEase();
         surveyDesign.evaluateResponsiveness();
-        surveyDesign.gatherFeedback();
 
-        // Polling Design
-        System.out.println("\nPolling Design:");
-        PollingDesign pollingDesign = new PollingDesign();
-        pollingDesign.conductPolls();
-        pollingDesign.periodicPolls();
-        pollingDesign.targetedPolls();
+        // Simulate a user giving a review
+        System.out.println("\n=== User Gives Review ===");
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter your feedback: ");
+        String userFeedback = scanner.nextLine();
 
-        // Direct Contact Design
-        System.out.println("\nDirect Contact Design:");
-        DirectContactDesign directContactDesign = new DirectContactDesign();
-        directContactDesign.establishDedicatedEmail();
-        directContactDesign.hotlineForUrgentQueries();
-        directContactDesign.inPersonFeedbackSessions();
-
-        // Data Collection and Analysis
-        System.out.println("\nData Collection and Analysis:");
+        // Assume the user feedback is collected and analyzed
+        System.out.println("\n=== Processing User Feedback ===");
         DataCollectionAnalysis dataCollectionAnalysis = new DataCollectionAnalysis();
         dataCollectionAnalysis.useOnlineSurveyTools();
         dataCollectionAnalysis.analyzeData();
         dataCollectionAnalysis.categorizeFeedback();
 
-        // Feedback Integration
-        System.out.println("\nFeedback Integration:");
+        // Provide feedback to the user
+        System.out.println("\n=== Feedback to User ===");
         FeedbackIntegration feedbackIntegration = new FeedbackIntegration();
         feedbackIntegration.sharePositiveFeedback();
         feedbackIntegration.developActionPlan();
         feedbackIntegration.communicateChanges();
 
-        // Continuous Improvement
-        System.out.println("\nContinuous Improvement:");
-        ContinuousImprovement continuousImprovement = new ContinuousImprovement();
-        continuousImprovement.regularReviews();
-        continuousImprovement.implementAdjustments();
-        continuousImprovement.emphasizeCulture();
-
-        // Communication Strategy
-        System.out.println("\nCommunication Strategy:");
-        CommunicationStrategy communicationStrategy = new CommunicationStrategy();
-        communicationStrategy.developCommunicationPlan();
-        communicationStrategy.emphasizeCommitment();
-
-        // Monitoring and Evaluation
-        System.out.println("\nMonitoring and Evaluation:");
-        MonitoringEvaluation monitoringEvaluation = new MonitoringEvaluation();
-        monitoringEvaluation.monitorImpact();
-        monitoringEvaluation.evaluateEffectiveness();
-        monitoringEvaluation.makeDataDrivenDecisions();
+        // Close the scanner
+        scanner.close();
     }
 }

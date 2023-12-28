@@ -5,25 +5,25 @@
         <group>
             <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Mementoo/Command.java</file>
             <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Mementoo/Dot.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/Assignment2/FluentInterfacePattern1/Query.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/Assignment2/FluentInterfacePattern/IPersonBuilder.java</file>
             <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Mementoo/BaseShape.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/Assignment2/FluentInterfacePattern/PersonBuilder.java</file>
             <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Mementoo/Editor.java</file>
             <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Mementoo/Rectangle.java</file>
-            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/fluentInterface/FluentInterfacePattern/PersonBuilder.java</file>
             <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Mementoo/Memento.java</file>
             <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Mementoo/ColorCommand.java</file>
             <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Mementoo/History.java</file>
-            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/fluentInterface/FluentInterfacePattern1/Main.java</file>
-            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/fluentInterface/FluentInterfacePattern1/QueryBuilder.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/Assignment2/FluentInterfacePattern/Main.java</file>
             <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Mementoo/Canvas.java</file>
             <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Mementoo/Shape.java</file>
             <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Mementoo/MoveCommand.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/Assignment2/FluentInterfacePattern1/QueryBuilder.java</file>
             <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Mementoo/Demo.java</file>
-            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/fluentInterface/FluentInterfacePattern/Main.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/Assignment2/FluentInterfacePattern1/Main.java</file>
             <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Mementoo/CompoundShape.java</file>
-            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/fluentInterface/FluentInterfacePattern/IPersonBuilder.java</file>
-            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/fluentInterface/FluentInterfacePattern1/Query.java</file>
             <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Mementoo/Circle.java</file>
-            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/fluentInterface/FluentInterfacePattern/Person.java</file>
+            <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/Assignment2/FluentInterfacePattern/Person.java</file>
             <file>file:/D:/edu/design%20pattern/DesignPatterns/Java-design-patterns/DesignPatterns/src/GOF/Mementoo/Oval.java</file>
         </group>
     </open-files>
